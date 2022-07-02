@@ -5,4 +5,4 @@ It will most probably be HTML based, potentially with some JavaScript depending 
 
 ## Link to Site
 
-### [Click Here](https://copereira.github.io)
+### [Click Here](https://zushi0.github.io/copereira.github.io/)
