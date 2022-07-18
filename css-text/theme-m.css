@@ -99,6 +99,7 @@ table.item-gallery img {
     border: 1px solid burlywood;
     color: antiquewhite;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 
