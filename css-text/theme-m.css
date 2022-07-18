@@ -21,17 +21,105 @@ body {
     background-color: #4e1e1e;
     color: white;
     padding: 10px;
+    border: 0.15em solid burlywood;
+    max-width: 50%;
 }
 
-h2 {
+.main-content h1, h2, h3, h4 {
     color: burlywood;
 }
 
-p {
+.main-content h1 {
+    text-align: center;
+}
+
+.main-content p {
+    color: antiquewhite;
+    text-align: justify;
+}
+
+img.portrait {
+    max-width: 250px;
+    max-height: 500px;
+    min-width: 100px;
+    min-height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+table.about {
+    border: 0% transparent black;
+    margin: 10px;
+}
+
+table.about td, th {
+    border-bottom: 1px solid burlywood;
+    color: antiquewhite;
+    text-align: left;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table.item-gallery {
+    border: 0% transparent black;
+}
+
+table.item-gallery td {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+table.item-gallery img {
+    max-width: 100px;
+    max-height: 200px;
+}
+
+.dis-logo-l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dis-logo-l img.logo {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.fset-horiz {
+    display: flex;
+    border: 1px solid burlywood;
+    color: antiquewhite;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fset-horiz .column {
+    flex: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+.fset-horiz .column img.icon {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+fieldset.feature-list {
+    border: 1px solid burlywood;
+}
+
+fieldset.feature-list legend, figure {
     color: antiquewhite;
 }
 
-
+fieldset.feature-list legend {
+    font-weight: bold;
+}
 
 .row {
     display: flex;
@@ -68,17 +156,16 @@ p {
     color: black;
 }
 
-.nav li a.logo {
-    font-size: 0%;
-}
-
 .nav li.logo {
     text-align: center;
+    font-size: 0%;
 }
 
 .nav li img.logo {
     max-width: 50%;
     max-height: 50%;
+    min-width: 50px;
+    min-height: 50px;
     display: inline-block;
 }
 
@@ -93,8 +180,12 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
-    .row {
+    .row, .fset-horiz {
         flex-direction: column;
+    }
+
+    .main-content {
+        max-width: 100%;
     }
 
     .nav li.option {
