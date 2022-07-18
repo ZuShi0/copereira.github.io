@@ -25,7 +25,10 @@ body {
     max-width: 50%;
 }
 
-.main-content h1, h2, h3, h4 {
+.main-content h1,
+h2,
+h3,
+h4 {
     color: burlywood;
 }
 
@@ -52,7 +55,8 @@ table.about {
     margin: 10px;
 }
 
-table.about td, th {
+table.about td,
+th {
     border-bottom: 1px solid burlywood;
     color: antiquewhite;
     text-align: left;
@@ -113,7 +117,8 @@ fieldset.feature-list {
     border: 1px solid burlywood;
 }
 
-fieldset.feature-list legend, figure {
+fieldset.feature-list legend,
+figure {
     color: antiquewhite;
 }
 
@@ -180,7 +185,9 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
-    .row, .fset-horiz {
+
+    .row,
+    .fset-horiz {
         flex-direction: column;
     }
 
