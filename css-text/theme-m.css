@@ -90,7 +90,8 @@ table.item-gallery img {
     max-height: 200px;
 }
 
-.dis-logo-l, .dis-logo-xl {
+.dis-logo-l,
+.dis-logo-xl {
     display: flex;
     align-items: center;
     justify-content: center;
