@@ -17,6 +17,22 @@ body {
     flex-wrap: nowrap;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+a:active {
+    color: burlywood;
+}
+
 .main-content,
 .main-content-i,
 .sub-content {
@@ -114,6 +130,14 @@ table.item-gallery td {
 table.item-gallery img {
     max-width: 100px;
     max-height: 200px;
+}
+
+.closed-tdth td,
+.closed-tdth th {
+    border-left: 1px solid burlywood;
+    border-right: 1px solid burlywood;
+    border-top: 1px solid burlywood;
+    text-align: center;
 }
 
 .dis-logo-l,
