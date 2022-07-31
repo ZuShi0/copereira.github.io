@@ -18,11 +18,18 @@ body {
 }
 
 .main-content,
-.main-content-i {
+.main-content-i,
+.sub-content {
     background-color: #4e1e1e;
     color: white;
     padding: 10px;
     border: 0.15em solid burlywood;
+}
+
+.main-content-f {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-content {
@@ -72,12 +79,16 @@ img.portrait {
     margin: 10px;
 }
 
-table.about {
+table.about,
+table.wex {
     border: 0% transparent black;
+}
+
+table.about {
     margin: 10px;
 }
 
-table.about td,
+td,
 th {
     border-bottom: 1px solid burlywood;
     color: antiquewhite;
@@ -213,6 +224,10 @@ fieldset.feature-list legend {
     max-width: 30px;
     max-height: 30px;
     padding-right: 2em;
+}
+
+.uline {
+    text-decoration: underline antiquewhite;
 }
 
 hr {
