@@ -39,7 +39,7 @@
                 <div class="main-content-i">
                     <h2>COSC 499 - Capstone Project</h2>
                     <hr>
-                    <iframe class="pres" src="https://www.youtube.com/embed/XMRiSXsde8I" title="YouTube video player"
+                    <iframe class="pres" src="https://www.youtube.com/embed/aYT9q2mPk9M" title="YouTube video player"
                         frameborder="1"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -83,14 +83,13 @@
                         <fieldset class="feature-list">
                             <legend>Group Roles</legend>
                             <figure>Project Manager</figure>
-                            <figure>Manual System Developer</figure>
                         </fieldset>
                         <br>
                         <fieldset class="feature-list">
                             <legend>Group Responsibilities</legend>
                             <figure>Structuring Development Timeline</figure>
                             <figure>Communicating Development Progress</figure>
-                            <figure>Manual System Development</figure>
+                            <figure><s>Manual System Development</s></figure>
                             <figure>Assigning/Delegating Working</figure>
                             <figure>Resolving Team Conflicts</figure>
                             <figure>Ensuring Development Progresses Appropriately</figure>
@@ -106,7 +105,10 @@
                             changes as needed during development. During our research phase, we found a potential solution 
                             to our problem, but it would be a large development process, that had a potential of failure. 
                             I proposed to have 3 members of the team focus their efforts on that, while I developed a 
-                            backup alternative system that we would use in case the main system failed. 
+                            backup alternative system that we would use in case the main system failed. Over our winter break 
+                            I discovered that fully developing the alternate system would result in a product that wouldn't meet our 
+                            standards, so I decided to scrap the system, and moved on to hooking up a Front End + Back End to the 
+                            headless main system.
                         </p>
                         <br>
                         <p>
@@ -128,7 +130,7 @@
                     <div class="desc-i">
                         <h2>Solo Work</h2>
                         <p>
-                            As I briefly mentioned, I have been developing the backup system for this project. You may 
+                            As I briefly mentioned, I was developing the backup system (now deprecated) for this project. You may 
                             wonder why it was necessary, and the answer to that can be found in our choice of language 
                             for this project. The client we were assigned to for this project has a TypeScript backend, 
                             so we wanted to develop a system that would be easy for them to integrate with little effort. 
@@ -144,17 +146,22 @@
                         </p>
                         <br>
                         <p>
-                            Since the project is still in development, the Manual System is still being worked on by 
-                            myself. Currently, it can take user input, and generate timestamps and phonemes for each 
-                            word in the input. However the timestamping system, which works via processing the audio 
-                            generated for the input text, has some major flaws that will need to be fixed before I can 
-                            call the system finished. As this is my first time working with audio in such a deep way, 
-                            and in TypeScript/JS, I have had to do a lot of research regarding the topic.
+                            As mentioned in the "Group Contribution" section, I decided to deprecate and scrap my Manual System. 
+                            After putting in multiple hours of work, I hit a wall when trying to increase the accuracy of the system, 
+                            but due to my inexperience and our system limitations, it became very apparent that this system would not be 
+                            able to accomplish our goals in full.
                         </p>
                         <br>
                         <p>
-                            As the project progresses towards completion, I will update this page again to represent the 
-                            work that has been done. Stay tuned for future updates!
+                            My work on our project's FE and BE included writing client side scripts, and server side endpoints that would allow 
+                            a user to use a fully interactive site that would take text from the user and a selection of the voice, avatar and aligner 
+                            which would eventually send back a video for the user to view. Making this wasn't a requirement from our client, as the meat of 
+                            our requirements was the BE video generation engine, but we felt that it would make integration for our client a lot easier. With this 
+                            FE, we had a fully integrated and working example of how the client may want to implement our BE system to their site, which made our 
+                            technical documentation easier to digest and understand. Functionality was definitely a priority here, so visually it isn't a very pretty 
+                            FE. Additionally, testing our system was much easier because of the FE, which lead to us finding a few bugs that I fixed. One nasty bug 
+                            (with a simple fix) caused our animation engine to crash due to poor data handling. We also were able to test many kinds of inputs extremely 
+                            quickly, and were able to give our client a more complete list of issues and capabilities of our system.
                         </p>
                     </div>
                     <br>
